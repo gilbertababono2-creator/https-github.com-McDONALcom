@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM MAN.</title>
+    <style>
+      .box{
+            width:200px;
+            height:200px;
+            background-Color:red;
+        }
+    </style>
+</head>
+<body>
+    <button type="submit" id="btn"onclick="myFunc()">CHANGE ME</button>
+    
+    <script src="go.js"></script>
+</body>
+</html>
