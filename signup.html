@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIGN UP FORM</title>
+  <style>
+  body{
+    display:grid;
+    place-items:;
+    
+  }
+   .container{
+     display:grid;
+     place-items:center;
+     background:linear-gradient(135deg,#2847D5, #464C6A);
+     padding:50px 10px
+   }
+   input[type=text]{
+     padding:10px 10px 10px;
+     margin:10px 10px 10px;
+     outline:none;
+     color:#fff;
+     border:none;
+     border-radius:14px;
+     background:none;
+     border-bottom:2px solid #2241CE;
+   }
+   input[type=text]:focus{
+     color:#fff;
+     
+   }
+   input[type=password] {
+  padding: 10px 10px 10px;
+  margin: 10px 10px 10px;
+  outline: none;
+  border: none;
+  color:#fff;
+  border-radius: 14px;
+  background: none;
+  border-bottom: 2px solid #2241CE;
+}
+input[type=email] {
+  padding: 10px 10px 10px;
+  margin: 10px 10px 10px;
+  outline: none;
+  border: none;
+  color:#fff;
+  border-radius: 14px;
+  background: none;
+  border-bottom: 2px solid #2241CE;
+}
+input[type=submit] {
+  padding: 10px 10px 10px;
+  margin: 10px 10px 10px;
+  outline: none;
+  width:50%;
+  border: none;
+  border-radius: 14px;
+  background:linear-gradient(135deg,#2847D5, #464C6A);
+  border-bottom: 2px solid #2241CE;
+}
+label{
+  color:#fff;
+}
+  </style>
+</head>
+
+<body>
+  <form class="container">
+    <h2>SIGN UP</h2>
+    <form class="form"id="form">
+      <label for="fname">FIRSTNAME:</label>
+      <input type="text" name="fname" id="fname"/>
+      <label for="lname">LASTNAME:</label>
+      <input type="text" name="lname" id="lname"/>
+      <label for="email">EMAIL:</label>
+      <input type="email"id="email"name="email">
+      <label for="password">PASSWORD:</label>
+      <input type="password" name="password" id="password">
+      <input type="submit"value="SUBMIT"id="submit">
+      <p>ALREADY A MEMBER? <a href="#">LOGIN</a></p>
+    </form>
+  </form>
+</body>
+
+</html>

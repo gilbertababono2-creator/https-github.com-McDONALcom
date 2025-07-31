@@ -1,0 +1,148 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+body{
+  height:100vh;
+ 
+}
+.logo{
+  font-size:22px;
+  background:#650FFF;
+  margin-left:px;
+  padding:0px;
+  color:#ffff;
+}
+span{
+  color:darkblue;
+  font-size :29px;
+}
+.container{
+  position:static;
+  right:10px;
+  top:0px;
+  left:80%;
+  z-index:1000;
+}
+.btn{
+  width:25%;
+  height:10%;
+  outline:none;
+  border:none;
+  position:absolute;
+  left:76%;
+  top:5%;
+  background:transparent;
+}
+.btn > img{
+  width:85% ;
+  height:95%;
+  object-fit:cover;
+  position:relative;
+  right:15%;
+  bottom:43%;
+ 
+}
+ul li {
+  list-style-type:none;
+  color:black;
+  display:block;
+  padding:5px;
+}
+a{
+  padding:10px;
+  text-decoration:none;
+  color:#fff;
+  width:30%;
+}
+a:hover{
+  border-bottom:2px solid white;
+}
+.links{
+  display:none;
+  background:#3E1B7C;
+  border-radius:4px;
+  padding:5%;
+}
+.intro h1{
+  text-align:center ;
+  color :#fff;
+  background-image:url("/download (4).jpeg")
+} 
+img{
+  max-width:100%;
+  margin:20px 20px auto;
+  
+}
+button a {
+  color :white;
+  font-size:18px;
+  font-weight:bold;
+}
+button{
+  background:#5715CE;
+  padding:10px 10px;
+  margin:10px;
+  border-radius:15px;
+  outline:none;
+  border:none;
+}
+p, h3{
+  text-align:Center;
+}
+#container{
+  background:#ccc;
+  max-width:max-content;
+  display:flex;
+  flex-wrap:wrap;
+  padding:10px;
+  margin:10px;
+  border-radius:20px;
+  box-shadow:10px 10px 10px rgba(0 0 0 0.1);
+ 
+}
+
+img:hover{
+  transform:scale(1.1);
+}
+#container1{
+  background: #ccc;
+  max-width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 8px 0px 8px rgba(0 0 0 0.);
+}
+#container2{
+ background: #ccc;
+max-width: max-content;
+display: grid;
+column-gap:50px;
+padding: 10px;
+margin: 10px;
+border-radius: 20px;
+box-shadow: 8px 0px 8px rgba(0 0 0 0.);
+}
+.area{
+  margin-left:10px;
+  background:whitesmoke ;
+  box-shadow:5px 5px 5px 5px #ccc;
+}
+#info{
+  width:100%;
+  outline:none;
+}
+#cta{
+  background:#2241CE;
+  padding:20px 30px;
+  color:#fff;
+  font-size:18px;
+}
+footer{
+  padding:20ox 20px auto;
+  height:20%;
+  margin:20px 20px;
+}
